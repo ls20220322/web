@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- 表单布局 -->
+    <meta charset="utf-8">
+    <title>The Starbuzz Bean Machine</title>
+	<link rel="stylesheet" href="./css/make.css">
+  </head>
+  <body>
+
+    <h1>If you want to make friend with me</h1>
+    <h2>Please fill out the form below </h2>
+    <!-- end of header -->
+    <div id="main">
+    <form action="http://www.starbuzzcoffee.com/processorder.php" method="post">
+	<div class="tableRow">
+        <!-- 下拉式选项 -->
+		<p>
+          Choose your interest:
+		</p>
+		<p>
+            <select name="interest">
+              <option value="music">music</option>
+              <option value="chess">chess</option>
+              <option value="game">game</option>
+              <option value="technique">technique</option>
+            </select>
+		</p>
+	</div>
+    <!-- 按钮选项 -->
+	<div class="tableRow">
+		<p> gender: </p>
+		<p>
+            <input type="radio" name="beantype" value="whole"> male<br>
+            <input type="radio" name="beantype" value="ground" checked> 
+            female
+		</p>
+	</div>
+	<!-- 专门的日历 -->
+	<div class="tableRow label">
+		<p> birthday</p>
+		<p> <input type="date" name="date"> </p>
+	</div>
+	<div class="tableRow">
+		<p class="heading"> Ship to </p>
+		<p></p>
+	</div>
+    <!-- 采用input标签，收集信息 -->
+	<div class="tableRow">
+		<p> Name: </p>
+		<p> <input type="text" name="name(qq)" value="" placeholder="name(qq)" required> </p>
+	</div>
+	<div class="tableRow">
+		<p> Address: </p>
+		<p> <input type="text" name="address" value="" placeholder="mail(qq)" required> </p>
+	</div>
+	<div class="tableRow">
+		<p> City: </p>
+		<p> <input type="text" name="city" value="" placeholder="zhuzhou" required> </p>
+	</div>
+	<div class="tableRow">
+		<p> State: </p>
+		<p> <input type="text" name="state" value="" placeholder="China" required> </p>
+	</div>
+	<div class="tableRow">
+		<p> Zip: </p>
+		<p> <input type="text" name="zip" value="" placeholder="90050" required> </p>
+	</div>
+	<div class="tableRow">
+		<p> Phone: </p>
+		<p> <input type="tel" name="phone" value="" placeholder="310-555-1212" required> </p>
+	</div>
+    </form>
+    <!-- 提交个人信息 -->
+    <div class="tableRow">
+		<p></p>
+		<p> <input type="submit" value="Order Now"> </p>
+	</div>
+</div>
+</body>

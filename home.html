@@ -1,0 +1,155 @@
+<head>
+    <meta charset="utf-8"/>
+    <title>ls的主页</title>
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/img.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 凝胶布局 -->
+    <div class="wapper">
+        <div class="container" id="container-1">
+            <div id="menu">
+                <!-- 导航（菜单区） -->
+                <ul>
+                    <li><a href="C:\Users\86156\Documents\Tencent Files\1135197957\FileRecv\学生资料0420\学生资料0420\homework\home.html">/主页</a></li>
+                    <li><a href="C:\Users\86156\Documents\Tencent Files\1135197957\FileRecv\学生资料0420\学生资料0420\homework\film.html">/看过</a></li>
+                    <li><a href="C:\Users\86156\Documents\Tencent Files\1135197957\FileRecv\学生资料0420\学生资料0420\homework\interest.html">/兴趣爱好</a></li>
+                    <li><a href="C:\Users\86156\Documents\Tencent Files\1135197957\FileRecv\学生资料0420\学生资料0420\homework\some.html">/随笔/</a></li>
+                </ul>
+            </div>
+            <div id="icon">
+                <img id="icon-1" src="C:\Users\86156\Pictures\Saved Pictures\微信图片_20220623150952.jpg" alt="头像">
+            </div>
+            <p>世界那么大 我想去看看</p>
+            <p>喜欢独处 一个人品味影视和书籍</p>
+            <p>享受孤独 与孤独为伍</p>
+        </div>
+    </div>
+    <!-- 这里是fixed，相对页面不动 -->
+    <div class="table" >
+        <li style="margin-top:10px"><a href="home.html">主页</a></li>
+        <li><a href="film.html">看过</a></li>
+        <li><a href="interest.html">兴趣</a></li>
+        <li><a href="some.html">随笔</a></li>
+    </div>
+    <!-- 下面的几个小图标全是absolute -->
+    <!-- 内容区wappper -->
+    <div class="wapper">
+        <div class="content">
+            <img id="browse" src="./icon/icons8-accuracy-50.png">
+            <p>看过</p>
+            <!-- wapper分为book和film区 -->
+            <div id="book">
+                <p>书籍</p><br>
+                <p class="article">所罗门王的指环,</p><p class="author">Konrad Loren</p>
+                <p class="article">追风筝的人,</p><p class="author">Khaled Hosseini</p>
+                <p class="article">偷影子的人,</p><p class="author">Le voleur d'ombres</p>
+            </div>
+            <div id="film">
+                <p>电影</p>
+                <img src="C:\Users\86156\Pictures\Saved Pictures\1.jpg" alt="少年的你">
+                <div id="discuss">
+                    <p><a href="film.html">更多>></a></p>
+                    <h3 class="left">没有人会孤独，</h3>
+                    <h3 class="right">我们都是社会的一部分。</h3>
+                    <h3 class="left">没有人有权利绝望，</h3>
+                    <h3 class="right">我们要使明天更好。</h3>
+                    <h3 class="center">—— A Better Tomorrow</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wapper">
+        <div class="content">
+            <!-- 分为music和chess区 -->
+            <img id="interest" src="icon/icons8-idea-50.png">
+            <p>兴趣</p>
+            <div class="inner">
+                <div id="music">
+                    <p class="title" style="color:brown">音乐>></p>
+                    <div class="introduce">
+                        <h2>MrMiss组合</h2>
+                        <p>Mr. Miss的创作以舒服、清新旋律独具一格。
+                            Mr. Miss的歌曲很亲和,旋律朗朗上口,他们不玩辞藻堆砌的歌词,简单直白、言之有物,光看歌曲的名字就可感知；
+                            组合以百老汇爵士风格搭配轻松俏皮的歌词，呈现出一部都市青年生活的音乐剧。</p>
+                        <p>代表作：</p>
+                        <p>音乐专辑《先生小姐》</p>
+                    </div>
+                    <div class="img"><img src="./img/ll.jpg"></div>
+                </div>
+                <div id="chess">
+                    <p style="font-size:large">象棋>></p>
+                    <div class="introduce">
+                        <p style="font-size:small">象棋，亦作“象碁”、中国象棋，有着悠久的历史，
+                            属于二人对抗性游戏的一种，由于用具简单，趣味性强，成为流行极为广泛的棋艺活动。
+                            中国象棋是中国棋文化也是中华民族的文化瑰宝。
+                        </p>
+                    </div>
+                    <!-- 日期用的是li套着两个div块，文字都可以点击链接 -->
+                    <p style="color:crimson">资讯</p>
+                    <li class="news" style="display:list-item"> 
+                        <div class="sj">
+                            <div class="sj-y">
+                                <!-- 年份 -->
+                                2022
+                            </div>
+                            <div class="sj-m-d">
+                                <!-- 具体日期 -->
+                                06-23
+                            </div>
+                        </div>
+                        <div class="bt">
+                            <p><a href="https://www.163.com/dy/article/HAHAJA630549OY96.html">
+                                棋坛重磅！象甲发布七月全国开战，王天一郑惟桐领新战友登场</a></p>
+                        </div>
+                    </li>
+                    <li class="news" style="display:list-item"> 
+                        <div class="sj">
+                            <div class="sj-y">
+                                2022
+                            </div>
+                            <div class="sj-m-d">
+                                06-22
+                            </div>
+                        </div>
+                        <div class="bt">
+                            <p><a href="https://www.sport.gov.cn/qpzx/n5384/c24396966/content.html">
+                                中国象棋协会关于印发腾讯棋牌天天象棋2022年全国象棋男子甲级联赛竞赛规程的通知</a></p>
+                        </div>
+                    </li>
+                    <li class="news" style="display:list-item"> 
+                        <div class="sj">
+                            <div class="sj-y">
+                                2022
+                            </div>
+                            <div class="sj-m-d">
+                                06-23
+                            </div>
+                        </div>
+                        <div class="bt">
+                            <p><a href="https://xw.qq.com/amphtml/20220623A026XF00">
+                                谁与争“锋”！顺德象棋“棋王”炼成记</a></p>
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 生活区 -->
+    <div class="wapper">
+        <div class="content">
+            <img id="home" src="./icon/icons8-home-50.png">
+            <p>生活</p>
+            <div id="tech">
+                <img src="./img/2.jpg">
+            </div>
+        </div>
+    </div>
+    <!-- 页尾 -->
+    <div id="footer" style="text-align: center;margin-top:10px;">
+        <small>
+          &copy; 2022, ls's home<br>
+          You still have lots more work on!
+        </small>
+      </div>
+</body>
