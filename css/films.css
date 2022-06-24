@@ -1,0 +1,94 @@
+body{
+    background-image: url("C:/Users/86156/Pictures/Saved Pictures/3.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+div.wapper{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+div#menu{
+    /* 导航 */
+    float:right;
+    margin:10px;
+}
+div#menu ul li{
+    display:inline;
+}
+div#icon{
+    /* 头像的div块 */
+    width:70px;
+    height:70px;
+    margin:auto;
+    margin-top:10px;
+    clear:right;
+}
+img#icon-1{
+    /* 图片设置 */
+    width:100%;
+    height:100%;
+    display:block;
+}
+div.content{
+    background-color: bisque;
+    width:1000px;
+    height:600px;
+    margin:auto;
+}
+div#film{
+    width:700px;
+    height:580px;
+    margin:5px;
+    background-color:whitesmoke;
+    float:right;
+}
+div#book{
+    width:280px;
+    height:580px;
+    margin:5px;
+    margin-right:0px;
+    background-color:mintcream;
+    float:right;
+    text-align: center;
+}
+div#book-1{
+    border-top: #9d7a23;
+}
+.sj{
+    width: 50px;
+    height: 40px;
+    float: left;
+    margin-left: 13px;
+}
+.sj-y{
+    height: 20px;
+    line-height: 20px;
+    background-color:crimson;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+}
+.sj-m-d{
+    height: 20px;
+    line-height: 20px;
+    border-top: 1px solid #d3e7e5;
+    color: #22877c;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    background-color: #fff;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:#9d7a23;
+}

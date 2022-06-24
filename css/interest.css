@@ -1,0 +1,100 @@
+body{
+    
+    background-image: url("C:/Users/86156/Documents/Tencent Files/1135197957/FileRecv/学生资料0420/学生资料0420/homework/img/微信图片_20220624144951.jpg");
+    background-size: 100%;
+    height:1000px;
+}
+table {
+    margin-left:      20px;
+    margin-right:     20px;
+    border:           thin solid black;
+    caption-side:     bottom;
+    border-collapse:  collapse;
+}
+table table th {
+    background-color: white;
+}
+td, th {
+    border:thin dotted gray;
+    padding:10px;
+    font-size: 15px;
+}
+th{
+    background-color: #cc6600;
+    font-size: 20px;
+}
+caption{
+    font-style:       italic;
+    padding-top:      8px;
+}  
+div.wapper{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+div#menu{
+    /* 导航 */
+    float:right;
+    margin:10px;
+}
+div#menu ul li{
+    display:inline;
+}
+div#icon{
+    /* 头像的div块 */
+    width:70px;
+    height:70px;
+    margin:auto;
+    margin-top:10px;
+    clear:right;
+}
+img#icon-1{
+    /* 图片设置 */
+    width:100%;
+    height:100%;
+    display:block;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:#9d7a23;
+}
+.table{
+    width:900px;
+    height:1000px;
+    background-color:aliceblue;
+    margin:auto;
+}
+.music{
+    margin:auto;
+    width:800px;
+    height:480px;
+}
+.introduce{
+    float:right;
+    width:600px;
+    height:234px;
+    background-color:whitesmoke;
+}
+ol li p{
+    font-size: medium;
+    text-align: left;
+}
+#music-1{
+    float:left;
+    margin-right:10px;
+}
+#music-1 img{
+    width:480px;
+    height:400px;
+}
+#music-2{
+    margin-top: 50px;;
+}
+#music-2 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+}

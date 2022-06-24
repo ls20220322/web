@@ -1,0 +1,131 @@
+p{
+    font-size:large;
+    font-weight: bold;
+}
+#film img{
+    padding:0px 0px 0px 10px;
+    width:280px;
+    height:300px;
+}
+div.wapper .content p{
+    font-family: "Microsoft YaHei";
+}
+img#browse{
+    height: 42px;
+    width:42px;
+    position:absolute;
+    left:660px;
+    top:315px; 
+}
+img#interest{
+    height: 42px;
+    width:42px;
+    position:absolute;
+    left:660px;
+    top:754px; 
+}
+div#film #discuss p{
+    text-align:right;
+    padding:0px;
+    font-size: smaller;
+    color:#9d7a23;
+}
+div#film #discuss h3{
+    color:#9d7a23;
+}
+div#book p{
+    text-shadow: #9d7a23;
+}
+p.article{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+p.author{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: medium;
+}
+#music .img{
+    width:250px;
+    height:250px;
+    padding:20px;
+    padding-top: 10px;
+}
+.img img{
+    width:250px;
+    height:260px;
+}
+#music p{
+    padding:5px 0px 0px 10px;
+    text-align: left;
+}
+#music .introduce{
+    width:326px;
+    height:285px;
+    margin:2px;
+    border:#9d7a23 dashed;
+    float:right;
+}
+#music .introduce h2{
+    text-align: center;
+    padding:0px;
+}
+#music .introduce p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    padding:0px;
+}
+p.title{
+    font-size: large;
+}
+.news{
+    list-style: none;
+}
+.sj{
+    width: 41px;
+    height: 34px;
+    float: left;
+    margin-left: 13px;
+}
+.bt p{
+    font-size: small;
+}
+.sj-y{
+    height: 16px;
+    line-height: 16px;
+    background-color: #22877c;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+}
+.sj-m-d{
+    height: 15px;
+    line-height: 15px;
+    border-top: 1px solid #d3e7e5;
+    color: #22877c;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    background-color: #fff;
+}
+.content img#home{
+    position:absolute;
+    width:42px;
+    height:42px;
+    left:660px;
+    top:1197px;
+}
+#tech img{
+    width:1000px;
+    height:356px;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:#9d7a23;
+}

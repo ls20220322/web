@@ -1,0 +1,108 @@
+body{
+    background-image: url("C:/Users/86156/Pictures/Saved Pictures/back.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+div.wapper{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+div.table{
+    width:110px;
+    height:140px;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:fixed; 
+    top:300px;
+    left:0px;
+    background-color: antiquewhite;
+    background-image: url("../icon/icons8-bookmark-100.png") ;
+    background-size: 110px 150px;
+    background-repeat: no-repeat;
+}
+div.wapper p{
+    text-align: center;  
+}
+div.table li{
+    list-style: none;
+    padding:2px;
+    text-align: center;
+}
+div#icon{
+    /* 头像的div块 */
+    width:70px;
+    height:70px;
+    margin:auto;
+    margin-top:10px;
+    clear:right;
+}
+img#icon-1{
+    /* 图片设置 */
+    width:100%;
+    height:100%;
+    display:block;
+}
+div#menu{
+    /* 导航 */
+    float:right;
+    margin:10px;
+}
+div#menu ul li{
+    display:inline;
+}
+div.content{
+    height:420px;
+    width:1000px;
+    margin:auto;
+    margin-top: 10px;;
+}
+div.wapper .content #book{
+    width:344px;
+    height:380px;
+    float:left;
+    background-color:transparent;
+    border-top: 4px solid #85754d;
+}
+div.wapper .content #film{
+    width:656px;
+    height:380px;
+    float:left;
+    background-color: #e8e0cd;
+    border-top: 4px solid #b89a53;
+}
+div#tech{
+    background-color: dodgerblue;
+    float:left;
+    width:800px;
+    height:356px;
+}
+div.inner{
+    padding:0px;
+    margin:0px;
+    background-color: white;
+}
+div#chess{
+    background-color: whitesmoke;
+    float:left;
+    width:350px;
+    height:356px;
+    margin-left:20px;
+    margin-right:0px;
+}
+div#music{
+    background-color: blanchedalmond;
+    float:left;
+    width:626px;
+    height:356px;
+}
+div#discuss{
+    padding:10px;
+    width:336px;
+    height:280px;
+    background-color: transparent;
+    float:right;
+}
+#container-1{
+    margin-top:10px;
+    border-bottom:aquamarine dotted 5px;
+}

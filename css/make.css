@@ -1,0 +1,38 @@
+body { 
+    background-color: #b5a789;
+    font-family:      Georgia, "Times New Roman", Times, serif;
+    font-size:        small;
+    margin:           0px;
+  }
+  body {
+	background: #efe5d0 url(../img/5.jpg) top left;
+	margin: 20px;
+}
+
+form {
+	display: table;
+	padding: 50px;
+	border: thin dotted #7e7e7e;
+	background-color: transparent;
+}
+
+form textarea {
+	width: 500px;
+	height: 200px;
+}
+
+div.tableRow {
+	display: table-row;
+}
+
+div.tableRow p {
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+div.tableRow p:first-child {
+	text-align: right;
+}
+p.heading {
+	font-weight: bold;
+}

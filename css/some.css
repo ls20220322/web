@@ -1,0 +1,44 @@
+body{
+    background-image: url("C:/Users/86156/Documents/Tencent Files/1135197957/FileRecv/学生资料0420/学生资料0420/homework/img/8.jpg");
+    background-size: 100%;
+}
+div#menu{
+    /* 导航 */
+    float:right;
+    margin:10px;
+}
+div#menu ul li{
+    display:inline;
+}
+div#icon{
+    /* 头像的div块 */
+    width:70px;
+    height:70px;
+    margin:auto;
+    margin-top:10px;
+    clear:right;
+}
+img#icon-1{
+    /* 图片设置 */
+    width:100%;
+    height:100%;
+    display:block;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:#9d7a23;
+}
+.content-1{
+    margin:auto;
+    width:800px;
+    height:400px;
+    background-color:transparent;
+}
+.content-1 p{
+    padding:10px;
+}
